@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+if __name__ == "__main_":
 import sys
 
 count = len(sys.argv) - 1
