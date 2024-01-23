@@ -5,7 +5,7 @@ class Square:
     """ my class atrs """
     def __init__(self, size=0):
         """initialize atrs"""
-        self.__size = size
+        self.size = size
         
     def area(self):
         """
