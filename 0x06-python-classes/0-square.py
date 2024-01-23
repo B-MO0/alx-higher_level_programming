@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 """ defining my class """
 class Square:
-""" empty object """
+    """ empty object """
     pass
