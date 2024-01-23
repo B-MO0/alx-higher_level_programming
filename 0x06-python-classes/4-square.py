@@ -17,11 +17,18 @@ class Square:
         return self.__size ** 2
     @property
     def size(self):
-        """ getter of size """
+        """
+        getter of size
+        Returns:
+            size of sqr
+        """
         return self.__size
     @size.setter
     def size(self, value):
-        """ setter of size """
+        """ setter of size
+        Returns:
+            None
+        """
         if type(value) is int:
             if value < 0:
                 raise ValueError('size must be >= 0')
