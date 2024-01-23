@@ -12,4 +12,4 @@ class Square:
             else:
                 self.size = size
         else:
-            raise ValueError('size must be an integer')
+            raise TypeError('size must be an integer')
