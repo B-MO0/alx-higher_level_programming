@@ -1,4 +1,4 @@
 -- List all records in descending order
-SELECT name, score
+SELECT score, name
 FROM second_table
 ORDER BY score desc;
